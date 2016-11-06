@@ -1,8 +1,12 @@
 body {
+  margin-top: 56px;
   background-color: lightgray; }
 
 ul {
   list-style: none; }
+
+.navbar {
+  box-shadow: 0 2px 2px  gray; }
 
 .navbar-brand {
   padding-left: 1rem; }

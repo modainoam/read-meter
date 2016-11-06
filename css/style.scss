@@ -7,7 +7,7 @@ $c_caption: rgba(246,246,246, 1);
 
 
 body {
-	
+	margin-top: 56px;
 	background-color: lightgray;
 }
 
@@ -16,6 +16,10 @@ ul {
 }
 
 // elements 
+
+.navbar{
+	box-shadow: 0 2px 2px  gray;
+}
 
 .navbar-brand {
 	padding-left: 1rem;
