@@ -17,6 +17,9 @@ ul {
 .book-showcase {
   border-bottom: 1px solid rgba(85, 85, 85, 0.4); }
 
+.container:nth-last-of-type(1) .book-showcase {
+  border-bottom: none; }
+
 .list-title {
   padding-top: .5rem; }
 
