@@ -28,7 +28,8 @@ ul {
   margin-left: auto;
   margin-right: auto;
   height: 5rem;
-  padding: 0.3rem;
+  padding: 0.15rem;
+  margin: 0 .2rem 0;
   border: 1px #333 dashed; }
 .carousel .carousel-card .carousel-time {
   position: absolute;
