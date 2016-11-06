@@ -1,7 +1,7 @@
 //Colors
 $caption_black: rgba(2, 117, 216, .6);
 
-$c_caption: rgba(225,225,225, 1);
+$c_caption: rgba(246,246,246, 1);
 
 // General
 
@@ -30,7 +30,7 @@ ul {
 }
 
 .book-showcase {
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid rgba(85, 85, 85, .4);
 }
 
 .list-title {
@@ -53,17 +53,15 @@ ul {
 
 			margin-left: auto;
 			margin-right: auto;
-			// max-width: 80%;
 			height: 8rem;
-			margin: 0 -.4rem 0;
+			margin: 0 -.6rem 0;
 			box-shadow: -0.5rem 0 1rem #111;
-			// width: 100%;
 		}
 
 		.carousel-time {
 			position: absolute;
 			top: .5rem;
-			left: -.9rem;
+			left: -1.2rem;
 			background-color: $caption_black;
 			width: 2rem;
 			height: 2rem;
@@ -78,4 +76,9 @@ ul {
 		}
 	}
 	
+}
+
+footer {
+	padding: .5rem;
+	margin-top: 1.5rem;
 }
