@@ -24,22 +24,28 @@ ul {
   position: relative;
   vertical-align: top;
   display: inline-block; }
-.carousel .carousel-card .carousel-cover {
-  margin-left: auto;
-  margin-right: auto;
-  height: 8rem;
-  margin: 0 -.2rem 0;
-  box-shadow: -0.5rem 0 1rem #111; }
-.carousel .carousel-card .carousel-time {
-  position: absolute;
-  display: block;
-  top: -.5rem;
-  left: -.5rem;
-  background-color: rgba(85, 85, 85, 0.8);
-  padding: .2rem;
-  border-radius: 50%;
-  color: #e1e1e1;
-  font-weight: bold;
-  font-size: .4rem; }
+.carousel .carousel-card {
+  margin-top: 1.5rem; }
+  .carousel .carousel-card .carousel-cover {
+    margin-left: auto;
+    margin-right: auto;
+    height: 8rem;
+    margin: 0 -.4rem 0;
+    box-shadow: -0.5rem 0 1rem #111; }
+  .carousel .carousel-card .carousel-time {
+    position: absolute;
+    top: .5rem;
+    left: -.9rem;
+    background-color: rgba(2, 117, 216, 0.6);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: #e1e1e1;
+    font-weight: bold;
+    font-size: .55rem;
+    display: block;
+    align-items: center;
+    text-align: center;
+    line-height: 2rem; }
 
 /*# sourceMappingURL=style.css.map */
