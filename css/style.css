@@ -1,0 +1,45 @@
+body {
+  background-color: lightgray; }
+
+ul {
+  list-style: none; }
+
+.navbar-brand {
+  padding-left: 1rem; }
+
+.jumbotron {
+  padding: 1rem 1.5rem 1rem;
+  margin: 0; }
+  .jumbotron p {
+    padding-bottom: 0;
+    margin-bottom: 0; }
+
+.book-showcase {
+  border-bottom: 1px solid #333; }
+
+.list-title {
+  padding-top: .5rem; }
+
+.carousel li {
+  position: relative;
+  vertical-align: top;
+  display: inline-block; }
+.carousel .carousel-card .carousel-cover {
+  margin-left: auto;
+  margin-right: auto;
+  height: 5rem;
+  padding: 0.3rem;
+  border: 1px #333 dashed; }
+.carousel .carousel-card .carousel-time {
+  position: absolute;
+  display: block;
+  top: -.5rem;
+  right: -.5rem;
+  background-color: rgba(85, 85, 85, 0.8);
+  padding: .2rem;
+  border-radius: 50%;
+  color: #e1e1e1;
+  font-weight: bold;
+  font-size: .6rem; }
+
+/*# sourceMappingURL=style.css.map */
