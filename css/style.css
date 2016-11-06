@@ -27,19 +27,19 @@ ul {
 .carousel .carousel-card .carousel-cover {
   margin-left: auto;
   margin-right: auto;
-  height: 5rem;
-  padding: 0.3rem;
-  border: 1px #333 dashed; }
+  height: 8rem;
+  margin: 0 -.2rem 0;
+  box-shadow: -0.5rem 0 1rem #111; }
 .carousel .carousel-card .carousel-time {
   position: absolute;
   display: block;
   top: -.5rem;
-  right: -.5rem;
+  left: -.5rem;
   background-color: rgba(85, 85, 85, 0.8);
   padding: .2rem;
   border-radius: 50%;
   color: #e1e1e1;
   font-weight: bold;
-  font-size: .6rem; }
+  font-size: .4rem; }
 
 /*# sourceMappingURL=style.css.map */
