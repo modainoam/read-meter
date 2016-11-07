@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 body {
   margin-top: 56px;
   background-color: lightgray; }
@@ -54,6 +57,50 @@ ul {
     align-items: center;
     text-align: center;
     line-height: 2rem; }
+
+.search-results {
+  background: #f6f6f6;
+  border-radius: 10px;
+  padding: 1rem; }
+  .search-results ul {
+    padding: 0; }
+  .search-results .search-details-cover {
+    display: inline-block;
+    padding-right: 1rem;
+    vertical-align: top;
+    text-align: center; }
+    .search-results .search-details-cover img {
+      height: 10rem; }
+    .search-results .search-details-cover .details-link {
+      font-weight: bolder;
+      margin-bottom: 0; }
+  .search-results .search-details-time {
+    margin-top: .4rem; }
+    .search-results .search-details-time .search-details-time-title {
+      text-decoration: underline; }
+    .search-results .search-details-time .search-details-time-amount {
+      font-style: 1.1rem;
+      font-weight: bold;
+      background-color: rgba(2, 117, 216, 0.6);
+      color: white;
+      border-radius: 5px;
+      padding: .3rem;
+      margin-right: .3rem;
+      display: block; }
+  .search-results .search-details-info {
+    display: inline-block; }
+    .search-results .search-details-info .search-details-time {
+      display: inline-block;
+      vertical-align: top; }
+    .search-results .search-details-info .amazon-banner-01 {
+      display: inline-block;
+      vertical-align: top; }
+    .search-results .search-details-info .search-details-table {
+      display: inline-block; }
+      .search-results .search-details-info .search-details-table tr:nth-last-of-type(n + 2) {
+        border-bottom: 1px solid #ccc; }
+      .search-results .search-details-info .search-details-table th {
+        padding-right: .5rem; }
 
 footer {
   padding: .5rem;

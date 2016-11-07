@@ -1,10 +1,13 @@
 //Colors
-$caption_black: rgba(2, 117, 216, .6);
+$bg_c_caption: rgba(2, 117, 216, .6);
 
 $c_caption: rgba(246,246,246, 1);
 
 // General
 
+* {
+	box-sizing: border-box;
+}
 
 body {
 	margin-top: 56px;
@@ -73,7 +76,7 @@ ul {
 			position: absolute;
 			top: .5rem;
 			left: -1.2rem;
-			background-color: $caption_black;
+			background-color: $bg_c_caption;
 			width: 2rem;
 			height: 2rem;
 			border-radius: 50%;
@@ -87,6 +90,79 @@ ul {
 		}
 	}
 	
+}
+
+.search-results {
+	background: #f6f6f6;
+	border-radius: 10px;
+	padding: 1rem;
+
+	ul {
+		padding: 0;
+	}
+
+	.search-details-cover {
+		display: inline-block;
+		padding-right: 1rem;
+		vertical-align:  top;
+		text-align: center;
+
+		img{
+			height: 10rem;
+		}
+
+		.details-link {
+			font-weight: bolder;
+			margin-bottom: 0;
+		}
+
+	}
+
+	.search-details-time {
+
+		margin-top: .4rem;
+		.search-details-time-title {
+			text-decoration: underline;
+		}
+
+		.search-details-time-amount {
+			font-style: 1.1rem;
+			font-weight: bold;
+			background-color: $bg_c_caption;
+			color: white;
+			border-radius: 5px;
+			padding: .3rem;
+			margin-right: .3rem;
+			display: block;
+		}
+
+	}
+
+	.search-details-info {
+		display: inline-block;
+
+		.search-details-time {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.amazon-banner-01 {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.search-details-table {
+			display: inline-block;
+
+			tr:nth-last-of-type(n + 2) {
+				border-bottom: 1px solid #ccc;
+
+			}
+			th {
+				padding-right: .5rem;
+			}
+		}
+	}
 }
 
 footer {
