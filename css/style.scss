@@ -5,6 +5,8 @@ $c_caption: rgba(246,246,246, 1);
 
 // General
 
+
+
 * {
 	box-sizing: border-box;
 }
@@ -92,6 +94,8 @@ ul {
 	
 }
 
+
+
 .search-results {
 	background: #f6f6f6;
 	border-radius: 10px;
@@ -108,7 +112,7 @@ ul {
 		text-align: center;
 
 		img{
-			height: 10rem;
+			height: 7rem;
 		}
 
 		.details-link {
@@ -137,6 +141,7 @@ ul {
 		}
 
 	}
+
 
 	.search-details-info {
 		display: inline-block;
