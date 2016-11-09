@@ -11,6 +11,8 @@
 
 ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 html,body {
@@ -134,10 +136,12 @@ body {
 
 			margin-top: .4rem;
 			.search-details-time-title {
+				margin-bottom: .4rem;
 				text-decoration: underline;
 			}
 
 			.search-details-time-amount {
+				margin-bottom: 0;
 				font-style: 1.1rem;
 				font-weight: bold;
 				background-color: $bg_c_caption;
@@ -145,7 +149,7 @@ body {
 				border-radius: 5px;
 				padding: .3rem;
 				margin-right: .3rem;
-				display: block;
+				display: inline-block;
 			}
 
 		}
@@ -154,7 +158,17 @@ body {
 		.search-details-info {
 			display: inline-block;
 			flex-grow: 3;
+
+			.search-details-title{
+				margin-bottom: .1rem;
+			}
+
+			.search-details-author {
+				margin-bottom: 0;
+			}
+
 			.search-details-time {
+				margin-bottom: 0;
 				display: inline-block;
 				vertical-align: top;
 			}
@@ -165,7 +179,7 @@ body {
 			}
 
 			.search-details-table {
-				display: inline-block;
+				display: none;
 
 				tr:nth-last-of-type(n + 2) {
 					border-bottom: 1px solid #ccc;

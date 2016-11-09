@@ -2,7 +2,9 @@
   box-sizing: border-box; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  margin: 0;
+  padding: 0; }
 
 html, body {
   width: 100%; }
@@ -84,8 +86,10 @@ body {
     .search-results .search-card .search-details-time {
       margin-top: .4rem; }
       .search-results .search-card .search-details-time .search-details-time-title {
+        margin-bottom: .4rem;
         text-decoration: underline; }
       .search-results .search-card .search-details-time .search-details-time-amount {
+        margin-bottom: 0;
         font-style: 1.1rem;
         font-weight: bold;
         background-color: rgba(2, 117, 216, 0.6);
@@ -93,18 +97,23 @@ body {
         border-radius: 5px;
         padding: .3rem;
         margin-right: .3rem;
-        display: block; }
+        display: inline-block; }
     .search-results .search-card .search-details-info {
       display: inline-block;
       flex-grow: 3; }
+      .search-results .search-card .search-details-info .search-details-title {
+        margin-bottom: .1rem; }
+      .search-results .search-card .search-details-info .search-details-author {
+        margin-bottom: 0; }
       .search-results .search-card .search-details-info .search-details-time {
+        margin-bottom: 0;
         display: inline-block;
         vertical-align: top; }
       .search-results .search-card .search-details-info .amazon-banner-01 {
         display: inline-block;
         vertical-align: top; }
       .search-results .search-card .search-details-info .search-details-table {
-        display: inline-block; }
+        display: none; }
         .search-results .search-card .search-details-info .search-details-table tr:nth-last-of-type(n + 2) {
           border-bottom: 1px solid #ccc; }
         .search-results .search-card .search-details-info .search-details-table th {
