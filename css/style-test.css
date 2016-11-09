@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+html, body {
+  width: 100%; }
+
+body {
+  margin-top: 56px;
+  background-color: lightgray; }
+
+.navbar {
+  box-shadow: 0 2px 2px  gray; }
+
+.navbar-brand {
+  padding-left: 1rem; }
+
+.jumbotron {
+  padding: 1rem 1.5rem 1rem;
+  margin: 0; }
+  .jumbotron p {
+    padding-bottom: 0;
+    margin-bottom: 0; }
+
+.book-showcase {
+  border-bottom: 1px solid rgba(85, 85, 85, 0.4); }
+
+.container:nth-last-of-type(1) .book-showcase {
+  border-bottom: none; }
+
+.list-title {
+  padding-top: .5rem; }
+
+.carousel li {
+  position: relative;
+  vertical-align: top;
+  display: inline-block; }
+.carousel .carousel-card {
+  margin-top: 1.5rem; }
+  .carousel .carousel-card .carousel-cover {
+    margin-left: auto;
+    margin-right: auto;
+    height: 8rem;
+    margin: 0 -.6rem 0;
+    box-shadow: -0.5rem 0 1rem #111; }
+  .carousel .carousel-card .carousel-time {
+    position: absolute;
+    top: .5rem;
+    left: -1.2rem;
+    background-color: rgba(2, 117, 216, 0.6);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: #f6f6f6;
+    font-weight: bold;
+    font-size: .55rem;
+    display: block;
+    align-items: center;
+    text-align: center;
+    line-height: 2rem; }
+
+.search-results {
+  background: #f6f6f6;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: -0px 1rem; }
+  .search-results ul {
+    padding: 0; }
+  .search-results .search-card {
+    display: flex; }
+    .search-results .search-card .search-details-cover {
+      display: inline-block;
+      padding-right: 1rem;
+      vertical-align: top;
+      text-align: center;
+      flex-grow: 3; }
+      .search-results .search-card .search-details-cover img {
+        height: 7rem; }
+      .search-results .search-card .search-details-cover .details-link {
+        font-weight: bolder;
+        margin-bottom: 0; }
+    .search-results .search-card .search-details-time {
+      margin-top: .4rem; }
+      .search-results .search-card .search-details-time .search-details-time-title {
+        text-decoration: underline; }
+      .search-results .search-card .search-details-time .search-details-time-amount {
+        font-style: 1.1rem;
+        font-weight: bold;
+        background-color: rgba(2, 117, 216, 0.6);
+        color: white;
+        border-radius: 5px;
+        padding: .3rem;
+        margin-right: .3rem;
+        display: block; }
+    .search-results .search-card .search-details-info {
+      display: inline-block;
+      flex-grow: 3; }
+      .search-results .search-card .search-details-info .search-details-time {
+        display: inline-block;
+        vertical-align: top; }
+      .search-results .search-card .search-details-info .amazon-banner-01 {
+        display: inline-block;
+        vertical-align: top; }
+      .search-results .search-card .search-details-info .search-details-table {
+        display: inline-block; }
+        .search-results .search-card .search-details-info .search-details-table tr:nth-last-of-type(n + 2) {
+          border-bottom: 1px solid #ccc; }
+        .search-results .search-card .search-details-info .search-details-table th {
+          padding-right: .5rem; }
+
+footer {
+  padding: .5rem;
+  margin-top: 1.5rem; }
+
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif !important; }
+
+/*# sourceMappingURL=style-test.css.map */

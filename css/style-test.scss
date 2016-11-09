@@ -1,0 +1,194 @@
+@import "../plugins-0/_plugins.scss";
+@import "../variables-1/_variables.scss";
+
+// General
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+html,body {
+	width: 100%;
+}
+
+body {
+	margin-top: 56px;
+	background-color: lightgray;
+}
+
+// elements 
+
+.navbar{
+	box-shadow: 0 2px 2px  gray;
+}
+
+.navbar-brand {
+	padding-left: 1rem;
+}
+
+.jumbotron {
+	padding: 1rem 1.5rem 1rem;
+	margin: 0;
+
+	p {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+}
+
+.book-showcase {
+	border-bottom: 1px solid rgba(85, 85, 85, .4);
+
+}
+
+.container:nth-last-of-type(1) .book-showcase {
+	border-bottom: none;
+}
+
+.list-title {
+	padding-top: .5rem;
+}
+
+.carousel {
+
+	li {
+		position: relative;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+	.carousel-card {
+		
+		margin-top: 1.5rem;
+		
+		.carousel-cover {
+
+			margin-left: auto;
+			margin-right: auto;
+			height: 8rem;
+			margin: 0 -.6rem 0;
+			box-shadow: -0.5rem 0 1rem #111;
+		}
+
+		.carousel-time {
+			position: absolute;
+			top: .5rem;
+			left: -1.2rem;
+			background-color: $bg_c_caption;
+			width: 2rem;
+			height: 2rem;
+			border-radius: 50%;
+			color: $c_caption;
+			font-weight: bold;
+			font-size: .55rem;
+			display: block;
+			align-items: center;
+			text-align: center;	
+			line-height: 2rem;
+		}
+	}
+	
+}
+
+
+
+.search-results {
+	background: $card_bg_c;
+	border-radius: 10px;
+	padding: 1rem;
+	margin: -0px 1rem;
+
+	ul {
+		padding: 0;
+	}
+	
+	.search-card {
+		display: flex;
+
+
+		.search-details-cover {
+			display: inline-block;
+			padding-right: 1rem;
+			vertical-align:  top;
+			text-align: center;
+			flex-grow: 3;
+
+			img{
+				height: 7rem;
+			}
+
+			.details-link {
+				font-weight: bolder;
+				margin-bottom: 0;
+			}
+
+		}
+
+		.search-details-time {
+
+			margin-top: .4rem;
+			.search-details-time-title {
+				text-decoration: underline;
+			}
+
+			.search-details-time-amount {
+				font-style: 1.1rem;
+				font-weight: bold;
+				background-color: $bg_c_caption;
+				color: white;
+				border-radius: 5px;
+				padding: .3rem;
+				margin-right: .3rem;
+				display: block;
+			}
+
+		}
+
+
+		.search-details-info {
+			display: inline-block;
+			flex-grow: 3;
+			.search-details-time {
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			.amazon-banner-01 {
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			.search-details-table {
+				display: inline-block;
+
+				tr:nth-last-of-type(n + 2) {
+					border-bottom: 1px solid #ccc;
+
+				}
+				th {
+					padding-right: .5rem;
+				}
+			}
+		}
+	}
+}
+footer {
+	padding: .5rem;
+	margin-top: 1.5rem;
+}
+
+
+* {
+	box-sizing: border-box;
+	// font-family: $helvetica !important;
+	// font-family: $helvetica !important;
+	font-family: $lucida-grande !important;
+	// font-family: $monospace !important;
+	// font-family: $verdana !important;
+}
