@@ -89,6 +89,7 @@ body {
         margin-bottom: .4rem;
         text-decoration: underline; }
       .search-results .search-card .search-details-time .search-details-time-amount {
+        display: inline-block;
         margin-bottom: 0;
         font-style: 1.1rem;
         font-weight: bold;
@@ -112,12 +113,10 @@ body {
       .search-results .search-card .search-details-info .amazon-banner-01 {
         display: inline-block;
         vertical-align: top; }
-      .search-results .search-card .search-details-info .search-details-table {
-        display: none; }
-        .search-results .search-card .search-details-info .search-details-table tr:nth-last-of-type(n + 2) {
-          border-bottom: 1px solid #ccc; }
-        .search-results .search-card .search-details-info .search-details-table th {
-          padding-right: .5rem; }
+      .search-results .search-card .search-details-info .search-details-table tr:nth-last-of-type(n + 2) {
+        border-bottom: 1px solid #ccc; }
+      .search-results .search-card .search-details-info .search-details-table th {
+        padding-right: .5rem; }
 
 footer {
   padding: .5rem;

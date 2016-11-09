@@ -106,8 +106,10 @@ body {
 	padding: 1rem;
 	margin: -0px 1rem;
 
+
 	ul {
 		padding: 0;
+
 	}
 	
 	.search-card {
@@ -141,6 +143,7 @@ body {
 			}
 
 			.search-details-time-amount {
+				display: inline-block;
 				margin-bottom: 0;
 				font-style: 1.1rem;
 				font-weight: bold;
@@ -179,7 +182,6 @@ body {
 			}
 
 			.search-details-table {
-				display: none;
 
 				tr:nth-last-of-type(n + 2) {
 					border-bottom: 1px solid #ccc;
