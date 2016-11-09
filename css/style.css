@@ -106,4 +106,8 @@ footer {
   padding: .5rem;
   margin-top: 1.5rem; }
 
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif !important; }
+
 /*# sourceMappingURL=style.css.map */

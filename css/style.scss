@@ -1,3 +1,4 @@
+@import "../plugins-0/_plugins.scss";
 //Colors
 $bg_c_caption: rgba(2, 117, 216, .6);
 
@@ -173,4 +174,14 @@ ul {
 footer {
 	padding: .5rem;
 	margin-top: 1.5rem;
+}
+
+
+* {
+	box-sizing: border-box;
+	// font-family: $helvetica !important;
+	// font-family: $helvetica !important;
+	font-family: $lucida-grande !important;
+	// font-family: $monospace !important;
+	// font-family: $verdana !important;
 }
