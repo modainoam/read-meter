@@ -104,16 +104,16 @@ body {
     margin-right: .7rem;
     display: flex;
     flex-direction: column; }
-    .search-card-test .search-details-cover-test .details-link-test {
-      text-align: center;
-      font-weight: bolder;
-      margin-top: auto;
-      font-size: .8rem;
-      line-height: 1rem; }
     .search-card-test .search-details-cover-test img {
       margin: 0 auto .3rem;
       height: 7rem;
       box-shadow: 0px 0px 4px #222; }
+    .search-card-test .search-details-cover-test .details-link-test {
+      text-align: center;
+      font-weight: bolder;
+      margin: auto;
+      font-size: .8rem;
+      line-height: 1rem; }
   .search-card-test .search-details-info-test {
     margin-right: .5rem;
     display: flex;

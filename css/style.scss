@@ -164,20 +164,20 @@ body{
 		display: flex;
 		flex-direction: column;
 	
-
-		.details-link-test {
-			text-align: center;
-			font-weight: bolder;
-			margin-top: auto;
-			font-size: .8rem;
-			line-height: 1rem;
-		}
-
 		img {
 			margin: 0 auto .3rem;
 			height: 7rem;
 			box-shadow: 0px 0px 4px #222
 		}
+
+		.details-link-test {
+			text-align: center;
+			font-weight: bolder;
+			margin: auto;
+			font-size: .8rem;
+			line-height: 1rem;
+		}
+
 	}
 	
 	.search-details-info-test {
