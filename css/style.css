@@ -155,10 +155,10 @@ body {
     align-items: flex-start; }
     .search-card-test .search-details-info-test .search-details-title-test {
       margin-bottom: .1rem;
-      font-size: .9rem; }
+      font-size: 1.05rem; }
     .search-card-test .search-details-info-test .search-details-author-test {
       margin-bottom: .4rem;
-      font-size: .6rem; }
+      font-size: .65rem; }
     .search-card-test .search-details-info-test .search-details-time-test {
       margin-bottom: .3rem; }
       .search-card-test .search-details-info-test .search-details-time-test .search-details-time-title-test {
