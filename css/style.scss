@@ -105,79 +105,7 @@ p {
 
 
 
-.search-results {
-	background: #f6f6f6;
-	border-radius: 10px;
-	padding: 1rem;
 
-	ul {
-		padding: 0;
-	}
-
-	.search-details-cover {
-		display: inline-block;
-		padding-right: 1rem;
-		vertical-align:  top;
-		text-align: center;
-
-		img{
-			height: 7rem;
-		}
-
-		.details-link {
-			font-weight: bolder;
-			margin-bottom: 0;
-		}
-
-	}
-
-	.search-details-time {
-
-		margin-top: .4rem;
-		.search-details-time-title {
-			text-decoration: underline;
-		}
-
-		.search-details-time-amount {
-			font-style: 1.1rem;
-			font-weight: bold;
-			background-color: $bg_c_caption;
-			color: white;
-			border-radius: 5px;
-			padding: .3rem;
-			margin-right: .3rem;
-			display: block;
-		}
-
-	}
-
-
-	.search-details-info {
-		display: inline-block;
-
-		.search-details-time {
-			display: inline-block;
-			vertical-align: top;
-		}
-
-		.amazon-banner-01 {
-			display: inline-block;
-			vertical-align: top;
-		}
-
-		.search-details-table {
-			display: inline-block;
-
-			tr:nth-last-of-type(n + 2) {
-				border-bottom: 1px solid #ccc;
-
-			}
-			th {
-				padding-right: .5rem;
-			}
-		}
-	}
-}
 
 footer {
 	padding: .5rem;
@@ -203,12 +131,27 @@ body{
 	color: $main-font-color;
 
 }
+
+.search-results-bar {
+	display: flex;
+	padding: .7rem;
+	align-items: center;
+	nav{
+	margin-left: auto;
+		ul {
+			margin: 0;
+		}
+	}	
+}
+
 .container-test {
-	margin: 45px auto;
+	margin: 12px auto;
 	padding: 15px;
 	border-radius: 3px;
 	background: #fff;
 }
+
+
 .search-card-test{
 	margin-bottom: 1.5rem;
 	padding: 10px;
