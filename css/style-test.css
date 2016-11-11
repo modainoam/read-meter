@@ -2,9 +2,7 @@
   box-sizing: border-box; }
 
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
+  list-style: none; }
 
 html, body {
   width: 100%; }
@@ -67,17 +65,18 @@ body {
   background: #f6f6f6;
   border-radius: 10px;
   padding: 1rem;
-  margin: -0px 1rem; }
+  display: inline-block; }
   .search-results ul {
-    padding: 0; }
+    padding: 0;
+    display: inline-block; }
   .search-results .search-card {
-    display: flex; }
+    display: inline-flex;
+    flex-flow: space-between; }
     .search-results .search-card .search-details-cover {
       display: inline-block;
       padding-right: 1rem;
       vertical-align: top;
-      text-align: center;
-      flex-grow: 3; }
+      text-align: center; }
       .search-results .search-card .search-details-cover img {
         height: 7rem; }
       .search-results .search-card .search-details-cover .details-link {
@@ -97,11 +96,9 @@ body {
         color: white;
         border-radius: 5px;
         padding: .3rem;
-        margin-right: .3rem;
         display: inline-block; }
     .search-results .search-card .search-details-info {
-      display: inline-block;
-      flex-grow: 3; }
+      display: inline-block; }
       .search-results .search-card .search-details-info .search-details-title {
         margin-bottom: .1rem; }
       .search-results .search-card .search-details-info .search-details-author {
