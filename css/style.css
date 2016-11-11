@@ -149,11 +149,15 @@ body {
   .search-card-test .search-details-info-test {
     margin-right: .5rem; }
     .search-card-test .search-details-info-test .search-details-title-test {
-      margin-bottom: .2rem; }
+      margin-bottom: .1rem;
+      font-size: 1.1rem; }
     .search-card-test .search-details-info-test .search-details-author-test {
-      margin-bottom: .4rem; }
+      margin-bottom: .4rem;
+      font-size: .7rem; }
     .search-card-test .search-details-info-test .search-details-time-test .search-details-time-title-test {
-      text-decoration: underline; }
+      text-decoration: underline;
+      margin-bottom: .2rem;
+      font-size: .9rem; }
     .search-card-test .search-details-info-test .search-details-time-test .search-details-time-amount-test {
       font-size: .8rem;
       font-weight: bold;
