@@ -130,6 +130,7 @@ body {
   background: #fff; }
 
 .search-card-test {
+  margin-bottom: 1rem;
   padding: 10px;
   border-radius: 5px;
   background: #e2e2e2;
@@ -146,7 +147,8 @@ body {
       line-height: 1rem; }
     .search-card-test .search-details-cover-test img {
       margin: 0 auto .3rem;
-      height: 7rem; }
+      height: 7rem;
+      box-shadow: 0px 0px 4px #222; }
   .search-card-test .search-details-info-test {
     margin-right: .5rem;
     display: flex;
@@ -180,15 +182,13 @@ body {
   .search-card-test .search-details-table-test {
     display: flex;
     flex-direction: column;
-    font-size: .6rem;
+    font-size: .9rem;
     justify-content: center; }
     .search-card-test .search-details-table-test tr:nth-last-of-type(n + 2) {
       border-bottom: 1px solid #ccc; }
     .search-card-test .search-details-table-test th {
       padding-right: .5rem;
       font-weight: bold; }
-    .search-card-test .search-details-table-test img {
-      margin-top: 1rem; }
     @media (max-width: 480px) {
       .search-card-test .search-details-table-test {
         display: none; } }
