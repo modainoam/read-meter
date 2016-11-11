@@ -23,6 +23,7 @@ ul {
 	list-style: none;
 }
 
+h1,h2,h3,h4,h5,h6,
 p {
 	margin: 0;
 	padding: 0;
@@ -218,6 +219,15 @@ body{
 		margin-right: .7rem;
 		display: flex;
 		flex-direction: column;
+
+
+		.details-link-test {
+			text-align: center;
+			font-weight: bolder;
+			margin-bottom: 0;
+			font-size: .8rem;
+		}
+
 		img {
 			margin: 0 auto;
 			height: 7rem;
@@ -226,6 +236,16 @@ body{
 	
 	.search-details-info-test {
 		margin-right: .5rem;
+
+		.search-details-title-test {
+			margin-bottom: .2rem;
+		}
+
+		.search-details-author-test {
+			margin-bottom: .4rem;
+		}
+
+
 		.search-details-time-test {
 
 			.search-details-time-title-test {
@@ -262,7 +282,7 @@ body{
 		img {
 			margin-top: 1rem;
 		}
-	
+
 		@media (max-width: 480px) {
 			display: none;
 		}

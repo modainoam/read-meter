@@ -8,6 +8,7 @@ body {
 ul {
   list-style: none; }
 
+h1, h2, h3, h4, h5, h6,
 p {
   margin: 0;
   padding: 0; }
@@ -137,11 +138,20 @@ body {
     margin-right: .7rem;
     display: flex;
     flex-direction: column; }
+    .search-card-test .search-details-cover-test .details-link-test {
+      text-align: center;
+      font-weight: bolder;
+      margin-bottom: 0;
+      font-size: .8rem; }
     .search-card-test .search-details-cover-test img {
       margin: 0 auto;
       height: 7rem; }
   .search-card-test .search-details-info-test {
     margin-right: .5rem; }
+    .search-card-test .search-details-info-test .search-details-title-test {
+      margin-bottom: .2rem; }
+    .search-card-test .search-details-info-test .search-details-author-test {
+      margin-bottom: .4rem; }
     .search-card-test .search-details-info-test .search-details-time-test .search-details-time-title-test {
       text-decoration: underline; }
     .search-card-test .search-details-info-test .search-details-time-test .search-details-time-amount-test {
