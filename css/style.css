@@ -12,6 +12,10 @@ body {
   width: 100vw;
 }
 
+.container {
+  margin: 0 2rem;
+}
+
 ul {
   list-style: none;
 }
@@ -31,6 +35,11 @@ p {
   box-shadow: 0 2px 2px #808080;
 }
 
+.nav-top.container {
+  display: flex;
+  margin-left: 0;
+}
+
 .navbar-brand {
   padding-left: 1rem;
 }
@@ -39,6 +48,7 @@ p {
   align-items: stretch;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .nav-collapse li {
@@ -79,10 +89,6 @@ p {
 
 .book-showcase {
   border-bottom: 1px solid rgba(85, 85, 85, 0.4);
-}
-
-.container {
-  margin: 0 2rem;
 }
 
 .container:nth-last-of-type(1) .book-showcase {
