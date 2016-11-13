@@ -1,0 +1,16 @@
+doctype html
+html(lang='en')
+  include head
+  body  
+    header.main-header
+      include main-nav
+    .jumbotron.jumbotron-fluid.search-bar
+      block jumbotron        
+        .row.px-3
+          .col-xs-12
+            .input-group
+              input.form-control(type='text', placeholder='Search for books...')
+              span.input-group-btn
+                button.btn.btn-primary(type='button') Go!
+    block content
+    include footer

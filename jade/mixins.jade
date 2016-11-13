@@ -1,0 +1,18 @@
+mixin carousel-book(book)
+  li
+    .carousel-card
+      img.carousel-cover(src='./img/#{book.id}.jpg')
+      span.carousel-time #{book.length} hrs.
+
+mixin carousel-section(title, books)
+  - var titleClass = title.toLowerCase().replace(" ","-")
+  .container
+    .row.book-showcase.quick-reads
+      div(class = "col-xs-12 list-title list-#{titleClass}")
+        h6.section-title
+          | #{title}
+          span.tag.tag-default.float-xs-right See All
+      .col-xs-12.carousel
+          ul
+            for book in books
+              +carousel-book(book) 

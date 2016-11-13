@@ -1,0 +1,13 @@
+//output:../../output.html
+extends ../base
+
+append jumbotron
+  .row.pt-1.text-xs-center
+    h4 Reading Should Be Fun
+    p.small We are here to help you make the most of it!
+
+block content
+  include ../variables      
+  include ../mixins
+  +carousel-section("Quick Reads", books.slice(0,4))
+  +carousel-section("Now Trending", books.slice(4,8))
