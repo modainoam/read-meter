@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   margin-top: 56px;
   min-height: calc(100vh - 40px);
-  width: 100%;
+  width: 100vw;
 }
 
 ul {
@@ -108,7 +108,7 @@ p {
 }
 
 .list-title {
-  padding-top: .5rem;
+  padding-top: 1.5rem;
 }
 
 ///////////////////
