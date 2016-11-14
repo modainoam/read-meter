@@ -32,6 +32,7 @@ body {
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -46,6 +47,11 @@ p {
 }
 
 // elements
+#exCollapsingNavbar {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   box-shadow: 0 2px 2px  $gray;
 }
