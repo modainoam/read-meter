@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   margin-top: 56px;
   min-height: calc(100vh - 40px);
-  width: 100vw;
+  width: 100%;
 }
 
 .container {
@@ -47,7 +47,7 @@ p {
 }
 
 // elements
-#exCollapsingNavbar {
+collapse-nav {
   margin: 0;
   padding: 0;
 }
@@ -129,6 +129,9 @@ p {
 ///////////////////
 
 .carousel {
+
+  margin-bottom: 2rem;
+
   ul {
     display: flex;
     justify-content: center;
@@ -147,7 +150,8 @@ p {
     .carousel-cover {
       box-shadow: -.5rem 0 1rem $black01;
       height: 8rem;
-      margin: 0 -.6rem;
+      margin: 0 -1.2rem 0 0;
+
     }
 
     .carousel-time {

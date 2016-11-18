@@ -3,9 +3,9 @@ nav.navbar.navbar-dark.navbar-fixed-top.bg-primary.text-white
       button.navbar-toggler(type='button', data-toggle='collapse', data-target='#exCollapsingNavbar', aria-controls='exCollapsingNavbar', aria-expanded='false', aria-label='Toggle navigation')
       a.navbar-brand(href='#') ReadMeter
 
-  #exCollapsingNavbar.collapse
+  #exCollapsingNavbar.collapse.collapse-nav
     .bg-primary.text-white
       ul.nav-collapse
-        for page in ["Home2", "About", "Browse"]
+        for page in ["Home", "Browse", "About"]
           li
             a(href= "#{page}.html") #{page}
