@@ -20,7 +20,8 @@ mixin carousel-section(title, books)
 mixin search-results(searchTerm, books)
   .container
     .search-results-bar
-      h4 Search Results #{searchTerm}
+      h4 Search Results for 
+        span.search-term "#{searchTerm}"
       nav(aria-label='Page navigation ')
         ul.pagination.pagination-sm
           li.page-item.disabled
@@ -35,6 +36,7 @@ mixin search-results(searchTerm, books)
               span.sr-only Next
     .search-results
       ul.container.search-container
+        //- Create search cards
         for book in books
           li.search-card
             .search-details-cover
@@ -50,16 +52,8 @@ mixin search-results(searchTerm, books)
               img.amazon-banner-01(src='./img/icons/amazon-banner-01.gif')
             .search-details-table
               table
-                tr
-                  th Yead
-                  td #{book.year}
-                tr
-                  th Pages
-                  td #{book.pages}
-                tr
-                  th Words
-                  td #{book.words}
-                tr
-                  th Genre
-                  td #{book.genre}
-      
+                for detail in ["Year","Pages","Words","Genre"]
+                  tr
+                    th #{detail}
+                    td #{book[detail.toLowerCase()]}
+                    
