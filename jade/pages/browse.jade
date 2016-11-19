@@ -7,5 +7,11 @@ append jumbotron
     p.small We are here to help you make the most of it!
 
 block content
+  include ../variables      
+  include ../mixins
   .container
     h1 Browse our books
+  for book in books
+    +info-card(book, "search")
+  +carousel-section("Now Trending", books.slice(4,8))
+      

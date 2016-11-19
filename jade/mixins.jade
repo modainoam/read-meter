@@ -38,22 +38,25 @@ mixin search-results(searchTerm, books)
       ul.container.search-container
         //- Create search cards
         for book in books
-          li.search-card
-            .search-details-cover
-              img(src='./img/#{book.id}.jpg')
-              p.details-link
-                a(href='#') More Details
-            .search-details-info
-              h5.search-details-title #{book.title}
-              h6.search-details-author #{book.author}
-              .search-details-time
-                p.search-details-time-title Expected Reading Time: 
-                p.search-details-time-amount #{book.length} Hours and 24 Minutes
-              img.amazon-banner-01(src='./img/icons/amazon-banner-01.gif')
-            .search-details-table
-              table
-                for detail in ["Year","Pages","Words","Genre"]
-                  tr
-                    th #{detail}
-                    td #{book[detail.toLowerCase()]}
+          +info-card(book,"search")
                     
+                    
+mixin info-card(book, type)
+  li(class= "info-card")
+    div(class= 'info-card-details-cover')
+      img(src='./img/#{book.id}.jpg')
+      p.info-card-details-link
+        a(href='#') More Details
+    div(class= "info-card-details-info")
+      h5(class= "info-card-details-title") #{book.title}
+      h6(class= "info-card-details-author") #{book.author}
+      div(class= "info-card-details-time")
+        p(class= "info-card-details-time-title") Expected Reading Time: 
+        p(class= "info-card-details-time-amount") #{book.length} Hours and 24 Minutes
+      img.amazon-banner-01(src='./img/icons/amazon-banner-01.gif')
+    div(class= "info-card-details-table")
+      table
+        for detail in ["Year","Pages","Words","Genre"]
+          tr
+            th #{detail}
+            td #{book[detail.toLowerCase()]}
