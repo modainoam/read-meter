@@ -29,6 +29,8 @@ body {
   margin: 0 1rem;
 }
 
+
+
 ul {
   list-style: none;
   margin: 0;
@@ -192,7 +194,8 @@ footer {
   }
 }
 
-.container-test {
+
+.search-container {
   background: $white;
   border-radius: 3px;
   margin: 12px auto;
@@ -200,7 +203,7 @@ footer {
 }
 
 // Search Cards
-.search-card-test {
+.search-card {
   background: $lightgray;
   border-radius: 5px;
   display: flex;
@@ -208,19 +211,19 @@ footer {
   padding: 10px;
 }
 
-.search-details-info-test {
+.search-details-info {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin-right: .5rem;
 
-  .search-details-title-test {
+  .search-details-title {
     font-size: 1.05rem;
     margin-bottom: .1rem;
   }
 
-  .search-details-author-test {
+  .search-details-author {
     font-size: .65rem;
     margin-bottom: .4rem;
   }
@@ -231,18 +234,18 @@ footer {
   }
 }
 
-.search-details-time-test {
+.search-details-time {
 
   margin-bottom: .3rem;
 
-  .search-details-time-title-test {
+  .search-details-time-title {
     font-size: .9rem;
     margin-bottom: .2rem;
     text-decoration: underline;
 
   }
 
-  .search-details-time-amount-test {
+  .search-details-time-amount {
     background-color: $bg-c-caption;
     border-radius: 5px;
     color: $white;
@@ -255,7 +258,7 @@ footer {
 
 }
 
-.search-details-cover-test {
+.search-details-cover {
   display: flex;
   flex-direction: column;
   margin-right: .7rem;
@@ -266,7 +269,7 @@ footer {
     margin: 0 auto .3rem;
   }
 
-  .details-link-test {
+  .details-link {
     font-size: .8rem;
     font-weight: bolder;
     line-height: 1rem;
@@ -276,7 +279,7 @@ footer {
 
 }
 
-.search-details-table-test {
+.search-details-table {
   display: flex;
   flex-direction: column;
   font-size: .9rem;

@@ -19,7 +19,7 @@ mixin carousel-section(title, books)
 
 mixin search-results(searchTerm, books)
   .container
-    .row.search-results-bar
+    .search-results-bar
       h4 Search Results #{searchTerm}
       nav(aria-label='Page navigation ')
         ul.pagination.pagination-sm
@@ -33,22 +33,22 @@ mixin search-results(searchTerm, books)
             a.page-link(href='#', aria-label='Next')
               span(aria-hidden='true') »
               span.sr-only Next
-    .col-xs-12.search-results
-      ul.container-test
+    .search-results
+      ul.container.search-container
         for book in books
-          li.search-card-test
-            .search-details-cover-test
+          li.search-card
+            .search-details-cover
               img(src='./img/#{book.id}.jpg')
-              p.details-link-test
+              p.details-link
                 a(href='#') More Details
-            .search-details-info-test
-              h5.search-details-title-test #{book.title}
-              h6.search-details-author-test #{book.author}
-              .search-details-time-test
-                p.search-details-time-title-test Expected Reading Time: 
-                p.search-details-time-amount-test #{book.length} Hours and 24 Minutes
+            .search-details-info
+              h5.search-details-title #{book.title}
+              h6.search-details-author #{book.author}
+              .search-details-time
+                p.search-details-time-title Expected Reading Time: 
+                p.search-details-time-amount #{book.length} Hours and 24 Minutes
               img.amazon-banner-01(src='./img/icons/amazon-banner-01.gif')
-            .search-details-table-test
+            .search-details-table
               table
                 tr
                   th Yead
