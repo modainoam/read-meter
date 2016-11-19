@@ -8,4 +8,7 @@ nav.navbar.navbar-dark.navbar-fixed-top.bg-primary.text-white
       ul.nav-collapse
         for page in ["Home", "Browse", "About"]
           li
-            a(href= "#{page}.html") #{page}
+            - var link = page.toLowerCase()
+            if page == "Home"
+              - var link = "index"
+            a(href= "#{link}.html") #{page}
