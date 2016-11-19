@@ -16,3 +16,50 @@ mixin carousel-section(title, books)
           ul
             for book in books
               +carousel-book(book) 
+
+mixin search-results(searchTerm, books)
+  .container
+    .row.search-results-bar
+      h4 Search Results #{searchTerm}
+      nav(aria-label='Page navigation ')
+        ul.pagination.pagination-sm
+          li.page-item.disabled
+            a.page-link(href='#', aria-label='Previous')
+              span(aria-hidden='true') «
+              span.sr-only Previous
+          li.page-item.active
+            a.page-link(href='#') 1
+          li.page-item
+            a.page-link(href='#', aria-label='Next')
+              span(aria-hidden='true') »
+              span.sr-only Next
+    .col-xs-12.search-results
+      ul.container-test
+        for book in books
+          li.search-card-test
+            .search-details-cover-test
+              img(src='./img/#{book.id}.jpg')
+              p.details-link-test
+                a(href='#') More Details
+            .search-details-info-test
+              h5.search-details-title-test #{book.title}
+              h6.search-details-author-test #{book.author}
+              .search-details-time-test
+                p.search-details-time-title-test Expected Reading Time: 
+                p.search-details-time-amount-test #{book.length} Hours and 24 Minutes
+              img.amazon-banner-01(src='./img/icons/amazon-banner-01.gif')
+            .search-details-table-test
+              table
+                tr
+                  th Yead
+                  td #{book.year}
+                tr
+                  th Pages
+                  td #{book.pages}
+                tr
+                  th Words
+                  td #{book.words}
+                tr
+                  th Genre
+                  td #{book.genre}
+      

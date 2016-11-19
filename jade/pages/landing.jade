@@ -1,0 +1,9 @@
+//output:../../landing.html
+extends ../base
+
+block content
+  include ../variables      
+  include ../mixins
+  +search-results("Game of",books.slice(4,14))
+  +carousel-section("Now Trending", books.slice(4,8))
+  
